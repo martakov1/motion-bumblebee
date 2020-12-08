@@ -15,18 +15,20 @@ export function drawAnimation(){
     // })
     // drawTL.to("#dashboard",{duration:2, alpha:0}, "bumble-bee")
     drawTL.from("#Path-2",{duration:2, drawSVG:"0%", ease:"none"}, "bumble-bee")
-    drawTL.from("#Path-6",{duration:2, drawSVG:"0%", ease:"none"}, "bumble-bee")
-    drawTL.from("#Path-10",{duration:2, drawSVG:"0%", ease:"none"}, "bumble-bee")
-    drawTL.from("#Path-13",{duration:2, drawSVG:"0%", ease:"none"}, "bumble-bee")
-    drawTL.from("#Path-14",{duration:2, drawSVG:"0%", ease:"none"}, "bumble-bee")
-    drawTL.from("#Path-16",{duration:2, drawSVG:"0%", ease:"none"}, "bumble-bee")
-    drawTL.from("#Path-18",{duration:2, drawSVG:"0%", ease:"none"}, "bumble-bee")
-    drawTL.from("#Path-21",{duration:2, drawSVG:"0%", ease:"none"}, "bumble-bee")
-    drawTL.from("#Path-23",{duration:2, drawSVG:"0%", ease:"none"}, "bumble-bee")
-    drawTL.from("#Path-24",{duration:2, drawSVG:"0%", ease:"none"}, "bumble-bee")
-    drawTL.from("#Path-25",{duration:2, drawSVG:"0%", ease:"none"}, "bumble-bee")
-    drawTL.from("#Path-28",{duration:2, drawSVG:"0%", ease:"none"}, "bumble-bee")
-    drawTL.from("#Path-30",{duration:2, drawSVG:"0%", ease:"none"}, "bumble-bee");
+    .from("#Path-6",{duration:2, drawSVG:"0%", ease:"none"}, "bumble-bee")
+    .from("#Path-10",{duration:2, drawSVG:"0%", ease:"none"}, "bumble-bee")
+    .from("#Path-13",{duration:2, drawSVG:"0%", ease:"none"}, "bumble-bee")
+    .from("#Path-14",{duration:2, drawSVG:"0%", ease:"none"}, "bumble-bee")
+    .from("#Path-16",{duration:2, drawSVG:"0%", ease:"none"}, "bumble-bee")
+    .from("#Path-18",{duration:2, drawSVG:"0%", ease:"none"}, "bumble-bee")
+    .from("#Path-21",{duration:2, drawSVG:"0%", ease:"none"}, "bumble-bee")
+    .from("#Path-23",{duration:2, drawSVG:"0%", ease:"none"}, "bumble-bee")
+    .from("#Path-24",{duration:2, drawSVG:"0%", ease:"none"}, "bumble-bee")
+    .from("#Path-25",{duration:2, drawSVG:"0%", ease:"none"}, "bumble-bee")
+    .from("#Path-28",{duration:2, drawSVG:"0%", ease:"none"}, "bumble-bee")
+    .to("#storyboard-copy-3",{duration:2, scale: 15, ease:"none"})
+    
+    ;
     return drawTL;
 }
 
