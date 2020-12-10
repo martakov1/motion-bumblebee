@@ -57,6 +57,14 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/dev/content/bottom.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dev/content/bottom.html",
+		"oF": 0
+		},
 	"/dev/content/bottom.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -81,12 +89,28 @@
 		"oAP": "/dev/content/logo.html",
 		"oF": 0
 		},
+	"/dev/content/music.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dev/content/music.html",
+		"oF": 0
+		},
 	"/dev/content/music.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/dev/content/music.html",
+		"oF": 0
+		},
+	"/dev/content/top.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dev/content/top.html",
 		"oF": 0
 		},
 	"/dev/content/top.kit": {
