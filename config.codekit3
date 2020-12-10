@@ -57,28 +57,20 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/dev/content/dashboard.html": {
+	"/dev/content/bottom.kit": {
 		"cB": 0,
-		"ft": 8192,
+		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/dev/content/dashboard.html",
+		"oAP": "/dev/content/bottom.html",
 		"oF": 0
 		},
 	"/dev/content/dashboard.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/dev/content/dashboard.html",
-		"oF": 0
-		},
-	"/dev/content/logo.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/dev/content/logo.html",
 		"oF": 0
 		},
 	"/dev/content/logo.kit": {
@@ -87,6 +79,22 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/dev/content/logo.html",
+		"oF": 0
+		},
+	"/dev/content/music.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dev/content/music.html",
+		"oF": 0
+		},
+	"/dev/content/top.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dev/content/top.html",
 		"oF": 0
 		},
 	"/dev/global/head.kit": {
@@ -310,14 +318,6 @@
 		"oAP": "/gsap-bonus.tgz",
 		"oF": 0
 		},
-	"/motion-final/.gitattributes": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/motion-final/.gitattributes",
-		"oF": 0
-		},
 	"/node_modules": {
 		"ft": 65536,
 		"oA": 2,
@@ -380,7 +380,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 622571865.28876698,
-	"displayValue": "Motion-GSAP-Intro-PM",
+	"displayValue": "BumbleBee_motion",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets-azure",
 	"iconImageWasSetByUser": 0

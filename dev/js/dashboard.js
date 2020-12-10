@@ -9,6 +9,7 @@ const dashboardTL = gsap.timeline();
 export function dashboardAnimation(){
 
     dashboardTL.from("#dashboard",{duration:2, alpha:0})
+    
     .from("#path-29",{duration:2, drawSVG:"0%", ease:"none"}, "bars")
     .from("path-31",{duration:2, drawSVG:"0%", ease:"none"}, "bars")
     .from("#path-33",{duration:2, drawSVG:"0%", ease:"none"}, "bars")
