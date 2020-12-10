@@ -24,5 +24,6 @@ export function dashboardAnimation(){
     .from("#path-55",{duration:2, drawSVG:"0%", ease:"none"}, "bars")
     .from("#path-57",{duration:2, drawSVG:"0%", ease:"none"}, "bars")
     .from("#path-61",{duration:2, drawSVG:"0%", ease:"none"}, "bars")
-
+    ;
+    return drawTL;
 }
