@@ -98,6 +98,8 @@ export function dashboardAnimation(){
    
 
     .from("#path-67",{duration:1, drawSVG:"0%",alpha: 0, ease:"none"})//locator//
+
+   // Closing schene // dashboardTL.to(“#dashboard”, {duration: 1, scaleY: 0, transformOrigin: “center”});
     return dashboardTL;
 
 
