@@ -26,6 +26,7 @@ export function drawAnimation(){
     .from("#Path-24",{duration:2, drawSVG:"0%", ease:"none"}, "bumble-bee")
     .from("#Path-25",{duration:2, drawSVG:"0%", ease:"none"}, "bumble-bee")
     .from("#Path-28",{duration:2, drawSVG:"0%", ease:"none"}, "bumble-bee")
+    .from("#Path-30",{duration:2, drawSVG:"0%", ease:"none"}, "bumble-bee")
     .to("#storyboard-copy-3",{duration:2, ease:"none",scale: 5, transformOrigin: "50% 50%", alpha: 0})
     
     ;

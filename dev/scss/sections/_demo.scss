@@ -2,24 +2,35 @@
     Demo
 ============= */
 
-#draw-svg-container{
-    display: grid;
-    grid-template-columns: auto 50% auto;
-    grid-template-areas: ". draw .";
-    height: 100vh;
+// #draw-svg-container{
+//     display: grid;
+//     grid-template-columns: auto 50% auto;
+//     grid-template-areas: ". draw .";
+//     height: 100vh;
+     
 
-    >div{
-        grid-area: draw;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-}
+//     >div{
+//         grid-area: draw;
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;
+//         position: relative;
+//         .svgs{
+//             position: absolute;
+//             top:0;
+//             left: 0;
+//             width: 100%;
+            
+//             }
+//     }
+// }
 #dashboard-container{
     display: grid;
     grid-template-columns: auto 80% auto;
     grid-template-areas: ". dash .";
     
+   
+
     >div{
         grid-area: dash;
         position: relative;
@@ -31,7 +42,8 @@
         top:0;
         left: 0;
         width: 100%;
-        display: flex;
         }
+        
     }
+    
 }

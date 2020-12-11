@@ -426,19 +426,6 @@ textarea {
 /* =============
     Demo
 ============= */
-#draw-svg-container {
-  display: grid;
-  grid-template-columns: auto 50% auto;
-  grid-template-areas: ". draw .";
-  height: 100vh;
-}
-#draw-svg-container > div {
-  grid-area: draw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 #dashboard-container {
   display: grid;
   grid-template-columns: auto 80% auto;
@@ -447,11 +434,13 @@ textarea {
 #dashboard-container > div {
   grid-area: dash;
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 #dashboard-container > div .svgs {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  display: flex;
 }
